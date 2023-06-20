@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <button class="tabButton" data-tab="personal">Personal Information</button>
+    <button class="tabButton" data-tab="contact">Contact Information</button>
+
+    <div class="tabContent" id="personalTab">
+      <h2>Personal Information</h2>
+      <form>
+        <!-- Поля для личной информации -->
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required />
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required />
+
+        <!-- Дополнительные поля для личной информации -->
+      </form>
+    </div>
+
+    <div class="tabContent" id="contactTab">
+      <h2>Contact Information</h2>
+      <form>
+        <!-- Поля для контактной информации -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <!-- Дополнительные поля для контактной информации -->
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+.nav-link {
+  color: rgb(255, 128, 128);
+  transition: color 0.3s;
+}
+.nav-link:hover {
+  color: rgb(255, 133, 133);
+}
+hr {
+  opacity: 50%;
+}
